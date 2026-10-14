@@ -27,3 +27,5 @@ Requiere Python 3. Desde la carpeta del proyecto:
 This repository documents my foundational learning phase in data analysis.
 It includes Python exercises applied to a lending (fintech) business case,
 such as calculating loan interest and monthly payments.
+
+Última actualización: 13/10/2026
