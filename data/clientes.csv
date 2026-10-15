@@ -1,0 +1,61 @@
+cliente_id,nombre,distrito,segmento,fecha_alta,ingreso_mensual
+1,Diego Torres,SJL,Masivo,2023-10-09,1260.0
+2,Rosa Chávez,La Molina,Masivo,2024-07-12,2760.0
+3,Paola Chávez,Miraflores,Masivo,2023-08-27,1420.0
+4,Renzo Castillo,San Miguel,Masivo,2024-12-19,2850.0
+5,Ana Gutiérrez,SJL,Masivo,2025-06-09,1840.0
+6,Sofía Gutiérrez,Ate,Masivo,2023-06-09,1980.0
+7,Bruno Mendoza,Breña,Masivo,2024-01-03,2070.0
+8,Renzo Flores,La Molina,Masivo,2024-04-15,1300.0
+9,Óscar Cárdenas,Ate,Masivo,2024-10-05,1870.0
+10,Hugo Torres,Los Olivos,Masivo,2023-02-16,2820.0
+11,Jorge Castillo,Los Olivos,Premium,2025-06-06,10840.0
+12,Marco Mendoza,San Miguel,Masivo,2023-06-16,3120.0
+13,Gabriela Flores,Breña,Masivo,2024-11-30,2810.0
+14,Pedro Ramos,La Molina,Masivo,2023-09-08,2430.0
+15,Renzo Torres,Ate,Masivo,2024-12-05,3330.0
+16,Natalia Quispe,Ate,Premium,2023-08-23,10210.0
+17,Ximena Salazar,Ate,Masivo,2024-08-03,1350.0
+18,Camila Rojas,Los Olivos,Masivo,2024-10-20,2350.0
+19,Elena Salazar,Breña,Masivo,2024-07-05,2910.0
+20,Diego Rojas,Callao,Masivo,2024-01-06,2540.0
+21,Jorge Rojas,SJL,Masivo,2025-05-31,2940.0
+22,Valeria Castillo,Breña,Premium,2023-03-07,7380.0
+23,Bruno Quispe,Surco,Premium,2024-07-20,8230.0
+24,Fiorella Díaz,Ate,Masivo,2023-10-01,2440.0
+25,Ana Salazar,Los Olivos,Masivo,2024-04-09,2200.0
+26,Sergio Flores,Los Olivos,Premium,2024-06-03,10100.0
+27,Carla Mendoza,SJL,Premium,2023-07-23,8060.0
+28,Sergio Quispe,Breña,Masivo,2024-06-27,2990.0
+29,Ximena Paredes,Los Olivos,Masivo,2024-01-07,1240.0
+30,Rosa Flores,Comas,Masivo,2024-08-03,1750.0
+31,Fiorella Rojas,SJL,Premium,2024-06-29,11820.0
+32,Elena Huamán,Breña,Masivo,2023-06-19,3380.0
+33,Fiorella Salazar,San Miguel,Masivo,2024-07-06,1690.0
+34,Gabriela Mendoza,Comas,Masivo,2024-11-18,2120.0
+35,Diego Flores,Ate,Premium,2023-09-11,7610.0
+36,Diego Quispe,Surco,Masivo,2024-08-25,2470.0
+37,Ximena Quispe,Ate,Masivo,2023-03-11,1340.0
+38,Javier Torres,Callao,Masivo,2024-11-16,1750.0
+39,Mariana Ramos,San Miguel,Masivo,2024-08-07,3350.0
+40,Jorge Flores,La Molina,Premium,2023-07-14,10460.0
+41,César Quispe,Surco,Masivo,2025-06-03,2150.0
+42,Bruno Flores,San Miguel,Masivo,2025-03-30,2870.0
+43,Andrés Rojas,Los Olivos,Masivo,2023-05-24,2430.0
+44,Camila Gutiérrez,Callao,Masivo,2023-03-19,3210.0
+45,Natalia Quispe,Surco,Masivo,2024-07-07,2700.0
+46,Andrés Ramos,Comas,Premium,2023-06-20,10790.0
+47,Pedro Castillo,Miraflores,Masivo,2023-03-02,2120.0
+48,Iván Ramos,Los Olivos,Premium,2025-03-13,6120.0
+49,Renzo Díaz,Comas,Masivo,2025-03-13,3400.0
+50,Mariana Salazar,Callao,Masivo,2023-03-01,1880.0
+51,Mariana Ramos,Callao,Masivo,2023-02-21,1920.0
+52,Paola Flores,SJL,Premium,2023-02-28,8250.0
+53,Diego Castillo,Surco,Masivo,2025-06-01,1360.0
+54,Óscar Quispe,Breña,Premium,2024-08-15,8560.0
+55,Paola Mendoza,Los Olivos,Masivo,2024-08-01,2710.0
+56,Elena Castillo,SJL,Masivo,2023-09-02,2850.0
+57,Sergio Gutiérrez,Surco,Masivo,2023-11-20,1890.0
+58,Jorge Flores,Callao,Masivo,2024-07-30,2630.0
+59,Ximena Flores,San Miguel,Masivo,2023-12-24,1810.0
+60,Renzo Salazar,Los Olivos,Masivo,2025-05-03,1560.0
