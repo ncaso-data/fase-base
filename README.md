@@ -29,3 +29,4 @@ It includes Python exercises applied to a lending (fintech) business case,
 such as calculating loan interest and monthly payments.
 
 Última actualización: 13/10/2026
+Dataset agregado: 15/10/2026
