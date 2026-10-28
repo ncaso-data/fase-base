@@ -74,3 +74,44 @@ FROM prestamos
 GROUP BY plazo_meses
 HAVING count(prestamo_id) >= 18
 ORDER BY plazo_meses asc; """)
+
+# J0 · Predicción: consulta A =  filas; consulta B = ____ filas
+consultar("""
+SELECT 'clientes' AS tabla, (SELECT COUNT(*) FROM clientes) AS filas,
+       (SELECT COUNT(*) FROM pragma_table_info('clientes')) AS columnas
+UNION ALL
+SELECT 'prestamos', (SELECT COUNT(*) FROM prestamos),
+       (SELECT COUNT(*) FROM pragma_table_info('prestamos'))
+UNION ALL
+SELECT 'pagos', (SELECT COUNT(*) FROM pagos),
+       (SELECT COUNT(*) FROM pragma_table_info('pagos'));
+""")
+# Consulta A: con coma
+consultar("""
+SELECT COUNT(*) AS filas
+FROM prestamos, clientes;
+""")
+
+# Consulta B: con JOIN
+consultar("""
+SELECT COUNT(*) AS filas
+FROM prestamos AS p
+JOIN clientes AS c ON p.cliente_id = c.cliente_id;
+""")
+
+# J1 · Predicción: Masivo = 83 préstamos y 286000.0 de monto; Premium = 23 préstamos y 413000.0 de monto
+consultar("""
+SELECT c.segmento, COUNT(p.prestamo_id) AS n_prestamos, SUM(p.monto) AS monto_total
+FROM prestamos AS p
+JOIN clientes AS c ON p.cliente_id = c.cliente_id
+GROUP BY c.segmento;
+""")
+
+# J2 . Predicción: No cambiará mucho, será parecido, en un rango de 1000 a 500  de diferencia el del premium sí cambiará
+consultar("""
+SELECT c.segmento, p.plazo_meses, count(p.prestamo_id) AS n_prestamos, round(avg(p.monto)) as monto_promedio
+FROM prestamos AS p
+JOIN clientes AS c ON p.cliente_id = c.cliente_id
+Group by c.segmento, p.plazo_meses
+ORDER BY c.segmento, p.plazo_meses;
+""")
